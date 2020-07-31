@@ -130,6 +130,10 @@ def game_hash
   }
 end
 
+
+
+
+
 def num_points_scored(player_search)
   game_hash.each do |team, team_info|
     team_info[:players].each do |player|
@@ -210,5 +214,3 @@ game_hash.each do |loc, team_info|
   end
   return score
 end
-
-  
